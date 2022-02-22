@@ -162,9 +162,10 @@ $('#new_submit_btn').click(async function(e) {
 			$('.loading').hide()
 		},
 		error: function() {
-			alert('Submit Failure')
-			$('.loading').hide()
+			alert('Submit Failure');
+			$('.loading').hide();
 			// TODO: 跳转感谢页
+			$(window).attr('location','https://unecklace.com/thank-you-for-your-enquiry');
 		}
 	})
 })
