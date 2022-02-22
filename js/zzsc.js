@@ -165,6 +165,7 @@ $('#new_submit_btn').click(async function(e) {
 			alert('Submit Failure')
 			$('.loading').hide()
 			// TODO: 跳转感谢页
+			$(window).attr('location','https://unecklace.com/thank-you-for-your-enquiry');
 		}
 	})
 })
